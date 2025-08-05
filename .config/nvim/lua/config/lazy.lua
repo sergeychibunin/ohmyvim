@@ -38,3 +38,6 @@ vim.opt.tabstop = 4
 vim.opt.shiftwidth = 4
 vim.wo.number = true
 vim.cmd[[colorscheme catppuccin-mocha]]
+
+require('leap').set_default_mappings()
+
